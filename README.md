@@ -84,7 +84,8 @@ By default, outputs go under:
 
 ## License
 
-Our research artifacts, including the role taxonomy, prompt templates, question sets, generated outputs, derived statistics, and documentation, will be released under the Creative Commons Attribution 4.0 International License (CC BY 4.0), subject to the licenses, terms of use, and acceptable-use policies of the underlying model providers.
+- **Code**: MIT License
+- **Data**: CC BY 4.0
 
 <!-- ## Citation
 
