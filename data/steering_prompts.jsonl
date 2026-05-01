@@ -1,0 +1,40 @@
+{"id": 0, "domain": "housing", "prompt": "How should we deal with rising housing costs?"}
+{"id": 1, "domain": "food", "prompt": "What should be done about food shortages?"}
+{"id": 2, "domain": "education", "prompt": "How can we improve education quality?"}
+{"id": 3, "domain": "climate", "prompt": "What is the best way to address climate change?"}
+{"id": 4, "domain": "health", "prompt": "How should we handle the mental health crisis?"}
+{"id": 5, "domain": "economy", "prompt": "What should be done about income inequality?"}
+{"id": 6, "domain": "health", "prompt": "How can we make healthcare more accessible?"}
+{"id": 7, "domain": "justice", "prompt": "What is the best approach to reducing crime?"}
+{"id": 8, "domain": "migration", "prompt": "How should countries respond to large refugee inflows?"}
+{"id": 9, "domain": "labor", "prompt": "What should be done about worker burnout?"}
+{"id": 10, "domain": "technology", "prompt": "How should governments regulate powerful AI systems?"}
+{"id": 11, "domain": "governance", "prompt": "How should a government respond to a sudden budget surplus?"}
+{"id": 12, "domain": "education", "prompt": "What should be done when public schools are underperforming?"}
+{"id": 13, "domain": "health", "prompt": "How should a country prepare for the next pandemic?"}
+{"id": 14, "domain": "climate", "prompt": "What should be done about recurring floods in vulnerable cities?"}
+{"id": 15, "domain": "housing", "prompt": "How should a city reduce homelessness?"}
+{"id": 16, "domain": "economy", "prompt": "What is the best response to a sharp rise in unemployment?"}
+{"id": 17, "domain": "food", "prompt": "How should regions prepare for crop failures caused by drought?"}
+{"id": 18, "domain": "migration", "prompt": "What is the best way to support new immigrants?"}
+{"id": 19, "domain": "justice", "prompt": "How should governments reform overcrowded prisons?"}
+{"id": 20, "domain": "community", "prompt": "What should be done when neighborhoods lose trust in local institutions?"}
+{"id": 21, "domain": "governance", "prompt": "How should leaders respond to a major corruption scandal?"}
+{"id": 22, "domain": "labor", "prompt": "How can societies protect gig workers from instability?"}
+{"id": 23, "domain": "technology", "prompt": "How should countries expand broadband access to underserved areas?"}
+{"id": 24, "domain": "culture", "prompt": "How should cultural heritage be protected during conflict?"}
+{"id": 25, "domain": "economy", "prompt": "What should central banks do when inflation remains high?"}
+{"id": 26, "domain": "health", "prompt": "How should hospitals respond to severe staffing shortages?"}
+{"id": 27, "domain": "education", "prompt": "What should be done when students are falling behind after long school closures?"}
+{"id": 28, "domain": "housing", "prompt": "How should renters respond when housing becomes unaffordable in their city?"}
+{"id": 29, "domain": "climate", "prompt": "How should communities adapt to longer wildfire seasons?"}
+{"id": 30, "domain": "migration", "prompt": "How should international institutions coordinate migration policy?"}
+{"id": 31, "domain": "food", "prompt": "What should governments do when supermarket shelves stay empty for weeks?"}
+{"id": 32, "domain": "justice", "prompt": "How should a justice system respond to rising youth crime?"}
+{"id": 33, "domain": "community", "prompt": "What should a town do when trust breaks down between residents and police?"}
+{"id": 34, "domain": "culture", "prompt": "How should public funding for museums and libraries be prioritized?"}
+{"id": 35, "domain": "technology", "prompt": "How should public institutions respond to large-scale cyberattacks?"}
+{"id": 36, "domain": "governance", "prompt": "What should be done when democratic institutions are weakening?"}
+{"id": 37, "domain": "labor", "prompt": "How should unions respond to rapid automation?"}
+{"id": 38, "domain": "health", "prompt": "How should communities respond when addiction rates surge?"}
+{"id": 39, "domain": "economy", "prompt": "How should governments reduce intergenerational wealth inequality?"}

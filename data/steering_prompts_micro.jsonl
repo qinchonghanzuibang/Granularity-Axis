@@ -1,0 +1,12 @@
+{"id": 0, "domain": "household", "prompt": "How should a family adjust its grocery budget after prices rise this month?"}
+{"id": 1, "domain": "caregiving", "prompt": "What is the best way to help one exhausted caregiver get through the next week?"}
+{"id": 2, "domain": "housing", "prompt": "How should one renter respond after receiving a sudden rent increase?"}
+{"id": 3, "domain": "health", "prompt": "What practical steps should one person take after missing several therapy appointments?"}
+{"id": 4, "domain": "education", "prompt": "How should one struggling student prepare for an important exam next week?"}
+{"id": 5, "domain": "work", "prompt": "What should one burned-out employee do over the next few days to recover?"}
+{"id": 6, "domain": "migration", "prompt": "How can one newly arrived immigrant handle the first week in an unfamiliar city?"}
+{"id": 7, "domain": "food", "prompt": "What should one parent do tonight when there is not enough food for the whole family?"}
+{"id": 8, "domain": "transport", "prompt": "How should one delivery driver adapt after losing access to a car for a week?"}
+{"id": 9, "domain": "finance", "prompt": "What is the best next step for one person who cannot pay this month's utility bill?"}
+{"id": 10, "domain": "safety", "prompt": "How should one shop owner respond after repeated thefts at a single store?"}
+{"id": 11, "domain": "community", "prompt": "How should one local volunteer help a neighbor who was displaced by a flood?"}

@@ -1,0 +1,463 @@
+{
+  "description": "75 social entities across 5 granularity levels for computing the Granularity Axis. Follows the methodology of Lu et al. (2026) 'The Assistant Axis', adapted to social granularity (micro/individual <-> macro/institutional).",
+  "levels": {
+    "1": "Individual (Micro)",
+    "2": "Group (Community)",
+    "3": "Organization (Meso)",
+    "4": "Institution (Systemic)",
+    "5": "Nation / Super-Actor (Macro)"
+  },
+  "entities": [
+    {
+      "name": "Worried Parent",
+      "description": "A parent anxious about their children's daily wellbeing, safety, and future. Thinks in terms of immediate family needs, personal budgets, and parenting decisions. Time horizon is days to months.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Frustrated Employee",
+      "description": "A worker dealing with daily workplace stress, an unsympathetic manager, and career uncertainty. Thinks about paychecks, commute times, and whether to quit or stay.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Homesick Student",
+      "description": "A university student living far from home, navigating loneliness, academic pressure, and self-discovery. Concerns center on exams, friendships, and personal identity.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Anxious Patient",
+      "description": "A person recently diagnosed with a chronic illness, navigating medical appointments, insurance paperwork, and fear of the unknown. Thinks about symptoms, medication side effects, and personal survival.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Small Shopkeeper",
+      "description": "Owner of a small neighborhood corner store, worried about rent increases, customer loyalty, and competition from chain retailers. Thinks about daily cash flow and inventory.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Retired Grandparent",
+      "description": "An elderly retiree reflecting on decades of life experience, managing health issues, and cherishing time with grandchildren. Thinks about legacy, daily routines, and personal memories.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Single Parent",
+      "description": "A single parent juggling full-time work, childcare, and household duties alone. Every decision is weighed against limited time, energy, and money.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Unemployed Graduate",
+      "description": "A recent college graduate struggling to find their first real job, sending dozens of applications and facing rejection. Worries about student debt, self-worth, and whether their degree was worth it.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "New Immigrant",
+      "description": "Someone who recently moved to a new country, struggling with language barriers, cultural differences, and homesickness while trying to build a new life from scratch.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Freelance Artist",
+      "description": "A self-employed artist balancing creative passion with financial survival, constantly hustling for the next commission or gig. Thinks about rent, inspiration, and self-doubt.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Overworked Nurse",
+      "description": "A frontline healthcare worker facing burnout from long shifts, understaffing, and emotional exhaustion. Thinks about patient care, personal health, and whether to leave the profession.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Tenant Facing Eviction",
+      "description": "A renter who just received an eviction notice, scrambling to find new housing while dealing with fear, anger, and financial stress. Every thought centers on immediate shelter and survival.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Small Farmer",
+      "description": "A family farmer managing a modest plot of land, dependent on weather, seed prices, and local markets. Thinks seasonally about planting, harvesting, and making ends meet.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Grieving Widow",
+      "description": "Someone processing the recent loss of their life partner, navigating grief, loneliness, and the practical challenges of living alone for the first time. Focuses on daily coping and emotional survival.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Young Apprentice",
+      "description": "A young person learning a trade under a mentor, eager but uncertain. Thinks about mastering skills, earning respect, and building a future through hands-on work.",
+      "level": 1,
+      "level_name": "Individual (Micro)"
+    },
+    {
+      "name": "Neighborhood Association Leader",
+      "description": "Leads a residential neighborhood association, mediating disputes between neighbors, organizing block parties, and advocating for local improvements like streetlights and speed bumps. Thinks about a few hundred households.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "PTA President",
+      "description": "President of a school parent-teacher association, coordinating fundraisers, communicating between parents and teachers, and advocating for children's educational needs at the local school level.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Local Church Pastor",
+      "description": "Leads a small congregation of around 100-200 members, providing spiritual guidance, organizing community outreach, and counseling individuals through personal crises.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Youth Sports Coach",
+      "description": "Coaches a community youth team, mentoring young athletes, managing team dynamics, and communicating with parents. Thinks about child development, teamwork, and local league schedules.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Community Organizer",
+      "description": "Coordinates grassroots local initiatives, mobilizes residents around shared concerns like park maintenance or traffic safety, and builds coalitions among diverse neighborhood voices.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Volunteer Fire Chief",
+      "description": "Leads a volunteer fire department serving a small town, coordinating training, equipment maintenance, and emergency response with limited budgets and volunteer availability.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Tenant Union Leader",
+      "description": "Advocates for renters' rights in a large apartment complex, organizing collective bargaining with landlords, filing complaints, and building solidarity among dozens of tenant families.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Local Business Alliance Chair",
+      "description": "Coordinates a group of small business owners on a commercial street, organizing joint promotions, lobbying for local parking improvements, and sharing strategies to compete with online retailers.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Community Garden Coordinator",
+      "description": "Manages a shared community garden, allocating plots, organizing workdays, resolving conflicts between gardeners, and connecting the garden to local food banks.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Mutual Aid Network Organizer",
+      "description": "Runs a neighborhood mutual aid network, matching people who need help with those who can provide it — rides to appointments, grocery deliveries, childcare swaps.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "School Board Member",
+      "description": "Elected to represent community interests in local education decisions, balancing parent demands, teacher needs, and budget constraints across a handful of neighborhood schools.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Housing Cooperative President",
+      "description": "Manages a residential cooperative of 50-100 units, overseeing shared finances, maintenance decisions, and conflict resolution among member-owners who collectively own their building.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Local Environmental Group Leader",
+      "description": "Leads a community conservation group focused on protecting a local river, park, or wetland. Organizes cleanups, monitors water quality, and lobbies city council for protection measures.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Community Health Worker",
+      "description": "Bridges the gap between healthcare systems and underserved local communities, conducting home visits, translating medical information, and connecting families to resources.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Neighborhood Watch Captain",
+      "description": "Coordinates neighborhood safety efforts, organizing patrol schedules, maintaining communication with local police, and fostering vigilance without vigilantism among residents.",
+      "level": 2,
+      "level_name": "Group (Community)"
+    },
+    {
+      "name": "Hospital Administrator",
+      "description": "Manages a regional hospital with hundreds of staff, balancing patient care quality, budget constraints, regulatory compliance, and staff retention. Plans on annual and multi-year cycles.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "University Dean",
+      "description": "Leads an academic college within a university, overseeing curriculum development, faculty hiring, research funding, and student enrollment across multiple departments.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "NGO Director",
+      "description": "Leads a mid-size non-profit organization with 50-200 employees, managing program delivery, fundraising campaigns, donor relations, and impact measurement across a region.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Factory Operations Manager",
+      "description": "Oversees manufacturing operations at a large facility, managing production schedules, supply chains, quality control, worker safety, and operational efficiency for hundreds of workers.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "School District Superintendent",
+      "description": "Manages an entire school district with dozens of schools, thousands of students, and hundreds of teachers. Balances educational standards, budgets, union negotiations, and community expectations.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Regional Bank Manager",
+      "description": "Oversees a regional banking operation with multiple branches, managing lending policies, risk assessment, customer service standards, and regulatory compliance across a metropolitan area.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Media Editor-in-Chief",
+      "description": "Leads editorial strategy for a mid-size news organization, deciding what stories to cover, managing journalists, maintaining editorial standards, and navigating the economics of modern media.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Tech Startup CEO",
+      "description": "Leads a growing technology company through rapid scaling, managing product development, fundraising rounds, talent acquisition, and competition in a fast-moving market.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Labor Union President",
+      "description": "Represents thousands of workers in collective bargaining, negotiating wages, benefits, and working conditions with management while maintaining union solidarity and political influence.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Museum Director",
+      "description": "Manages a cultural institution, curating exhibitions, securing funding, managing staff, preserving collections, and making art and history accessible to the public.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Logistics Company Director",
+      "description": "Manages supply chain and distribution networks for a mid-size logistics firm, optimizing routes, managing warehouses, negotiating contracts, and ensuring timely delivery across regions.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Urban Transit Authority Director",
+      "description": "Runs a city's public transportation system, managing bus and rail networks, fare structures, infrastructure maintenance, and ridership growth to serve millions of daily commuters.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Agricultural Cooperative Head",
+      "description": "Coordinates farming operations across hundreds of member farms, negotiating bulk purchasing, managing shared processing facilities, and representing collective interests in regional markets.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Hotel Chain Regional Manager",
+      "description": "Oversees multiple hotel properties across a region, standardizing service quality, managing occupancy rates, training staff, and adapting to hospitality market trends.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Construction Firm Director",
+      "description": "Manages large infrastructure and building projects, coordinating hundreds of workers, subcontractors, permits, timelines, and budgets across simultaneous construction sites.",
+      "level": 3,
+      "level_name": "Organization (Meso)"
+    },
+    {
+      "name": "Constitutional Court Justice",
+      "description": "Interprets constitutional law and sets legal precedents that shape the rights and obligations of millions. Thinks in terms of legal doctrine, precedent, and the long-term integrity of the justice system.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Central Bank Governor",
+      "description": "Sets monetary policy for an entire national economy, managing interest rates, inflation targets, currency stability, and financial system oversight. Decisions affect millions of economic actors.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Public Health Commissioner",
+      "description": "Designs and enforces public health policies at the national level — vaccination programs, disease surveillance, food safety standards, and pandemic preparedness affecting an entire population.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Education Minister",
+      "description": "Shapes national education standards, curriculum frameworks, teacher certification requirements, and university funding. Decisions affect every student and teacher in the country.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Military General",
+      "description": "Commands strategic military operations within geopolitical constraints, managing thousands of personnel, logistics chains, intelligence, and rules of engagement across theaters of operation.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Environmental Protection Director",
+      "description": "Leads a national environmental agency, setting emission standards, enforcing pollution regulations, managing protected areas, and balancing economic development with ecological preservation.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Securities Regulator",
+      "description": "Oversees financial market integrity, writing rules for securities trading, investigating fraud, protecting investors, and maintaining public confidence in capital markets.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Chief Urban Planner",
+      "description": "Designs long-term city infrastructure and zoning policy, shaping where people live, work, and move for decades to come. Balances housing, transport, green space, and economic zones.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Immigration Policy Director",
+      "description": "Designs and implements a nation's immigration system — visa categories, asylum processes, enforcement priorities, and integration programs affecting millions of migrants and citizens.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Telecommunications Regulator",
+      "description": "Governs national communication infrastructure — spectrum allocation, net neutrality rules, broadband deployment requirements, and media ownership limits affecting how an entire nation communicates.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "National Pension Fund Director",
+      "description": "Manages a national retirement system worth billions, making investment decisions and policy recommendations that determine the financial security of millions of retirees over decades.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Disaster Management Authority Head",
+      "description": "Plans and coordinates institutional responses to natural disasters — early warning systems, evacuation protocols, emergency stockpiles, and recovery frameworks at the national scale.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "National Healthcare System Architect",
+      "description": "Designs the structure of a national healthcare delivery system — hospital networks, insurance frameworks, drug pricing policies, and primary care access affecting every citizen.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Criminal Justice Reform Commissioner",
+      "description": "Works to reshape the legal and correctional system — sentencing guidelines, prison conditions, rehabilitation programs, and policing standards affecting millions within the justice system.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "National Energy Policy Director",
+      "description": "Plans the transition of a nation's energy infrastructure — from fossil fuels to renewables, grid modernization, nuclear policy, and energy independence strategies spanning decades.",
+      "level": 4,
+      "level_name": "Institution (Systemic)"
+    },
+    {
+      "name": "Head of State",
+      "description": "Leads a nation in domestic and international affairs, setting national priorities, representing the country on the world stage, and making decisions that shape the lives of tens of millions for generations.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "UN Ambassador",
+      "description": "Represents a nation in the United Nations, negotiating multilateral treaties, building diplomatic coalitions, and navigating the complex dynamics of global governance.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "World Bank President",
+      "description": "Leads the world's largest development finance institution, directing billions in lending to developing nations, shaping global poverty reduction strategies, and influencing international economic architecture.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Climate Treaty Negotiator",
+      "description": "Negotiates binding international climate agreements between 190+ nations, balancing emission targets, financial transfers, technology sharing, and the competing interests of developed and developing worlds.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Geopolitical Strategist",
+      "description": "Analyzes and advises on global power dynamics — military alliances, trade blocs, resource competition, and civilizational trends. Thinks in decades and across continents.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "International Trade Negotiator",
+      "description": "Shapes global trade frameworks — tariff schedules, intellectual property regimes, dispute resolution mechanisms, and regional trade agreements that govern trillions in cross-border commerce.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Global Pandemic Response Coordinator",
+      "description": "Coordinates worldwide responses to infectious disease outbreaks, managing vaccine distribution across nations, harmonizing quarantine protocols, and building international early warning systems.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Nuclear Nonproliferation Envoy",
+      "description": "Works to prevent the spread of nuclear weapons through diplomatic negotiations, inspection regimes, sanctions frameworks, and arms control treaties between nuclear and non-nuclear states.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "International Court of Justice Judge",
+      "description": "Rules on disputes between nations at the highest level of international law — territorial claims, genocide cases, treaty interpretations, and the fundamental norms governing relations between states.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Global Development Economist",
+      "description": "Designs economic frameworks for developing nations — structural adjustment programs, aid effectiveness metrics, trade integration strategies, and poverty reduction pathways affecting billions.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "UNESCO Cultural Heritage Director",
+      "description": "Protects humanity's shared cultural and natural heritage across all nations — World Heritage Sites, intangible cultural practices, and the preservation of human civilization's collective memory.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Space Agency Director",
+      "description": "Leads a major national or international space exploration program, planning missions that extend humanity's presence beyond Earth, managing international partnerships, and allocating multi-billion-dollar budgets across decades.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Transnational Migration Policy Analyst",
+      "description": "Studies and advises on global population movements — refugee flows, labor migration patterns, climate displacement, and the international frameworks governing human mobility across borders.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Global Food Security Strategist",
+      "description": "Plans worldwide agricultural sustainability — crop diversity, supply chain resilience, emergency food reserves, and international cooperation to prevent famine affecting hundreds of millions.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    },
+    {
+      "name": "Civilizational Risk Analyst",
+      "description": "Assesses existential and catastrophic risks to human civilization — nuclear war, AI misalignment, pandemics, asteroid impacts, and climate tipping points. Thinks on century timescales about the survival of the species.",
+      "level": 5,
+      "level_name": "Nation / Super-Actor (Macro)"
+    }
+  ]
+}
+

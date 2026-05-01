@@ -1,0 +1,458 @@
+{
+  "default": {
+    "domain": "default",
+    "role_type": "default",
+    "family": "default",
+    "ladder_position": 0
+  },
+  "worried_parent": {
+    "domain": "family",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "frustrated_employee": {
+    "domain": "economy",
+    "role_type": "generic",
+    "family": "economy_ladder",
+    "ladder_position": 1
+  },
+  "homesick_student": {
+    "domain": "education",
+    "role_type": "generic",
+    "family": "education_ladder",
+    "ladder_position": 1
+  },
+  "anxious_patient": {
+    "domain": "health",
+    "role_type": "generic",
+    "family": "health_ladder",
+    "ladder_position": 1
+  },
+  "small_shopkeeper": {
+    "domain": "economy",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "retired_grandparent": {
+    "domain": "family",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "single_parent": {
+    "domain": "family",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "unemployed_graduate": {
+    "domain": "economy",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "new_immigrant": {
+    "domain": "migration",
+    "role_type": "generic",
+    "family": "migration_ladder",
+    "ladder_position": 1
+  },
+  "freelance_artist": {
+    "domain": "culture",
+    "role_type": "generic",
+    "family": "culture_ladder",
+    "ladder_position": 1
+  },
+  "overworked_nurse": {
+    "domain": "health",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "tenant_facing_eviction": {
+    "domain": "housing",
+    "role_type": "generic",
+    "family": "housing_ladder",
+    "ladder_position": 1
+  },
+  "small_farmer": {
+    "domain": "food",
+    "role_type": "generic",
+    "family": "food_ladder",
+    "ladder_position": 1
+  },
+  "grieving_widow": {
+    "domain": "family",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "young_apprentice": {
+    "domain": "education",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "neighborhood_association_leader": {
+    "domain": "housing",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "pta_president": {
+    "domain": "education",
+    "role_type": "generic",
+    "family": "education_ladder",
+    "ladder_position": 2
+  },
+  "local_church_pastor": {
+    "domain": "community",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "youth_sports_coach": {
+    "domain": "education",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "community_organizer": {
+    "domain": "governance",
+    "role_type": "generic",
+    "family": null,
+    "ladder_position": null
+  },
+  "volunteer_fire_chief": {
+    "domain": "disaster",
+    "role_type": "generic",
+    "family": "disaster_ladder",
+    "ladder_position": 2
+  },
+  "tenant_union_leader": {
+    "domain": "housing",
+    "role_type": "generic",
+    "family": "housing_ladder",
+    "ladder_position": 2
+  },
+  "local_business_alliance_chair": {
+    "domain": "economy",
+    "role_type": "generic",
+    "family": "economy_ladder",
+    "ladder_position": 2
+  },
+  "community_garden_coordinator": {
+    "domain": "food",
+    "role_type": "generic",
+    "family": "food_ladder",
+    "ladder_position": 2
+  },
+  "mutual_aid_network_organizer": {
+    "domain": "migration",
+    "role_type": "generic",
+    "family": "migration_ladder",
+    "ladder_position": 2
+  },
+  "school_board_member": {
+    "domain": "education",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "housing_cooperative_president": {
+    "domain": "housing",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "local_environmental_group_leader": {
+    "domain": "climate",
+    "role_type": "generic",
+    "family": "climate_ladder",
+    "ladder_position": 2
+  },
+  "community_health_worker": {
+    "domain": "health",
+    "role_type": "generic",
+    "family": "health_ladder",
+    "ladder_position": 2
+  },
+  "neighborhood_watch_captain": {
+    "domain": "justice",
+    "role_type": "generic",
+    "family": "justice_ladder",
+    "ladder_position": 2
+  },
+  "hospital_administrator": {
+    "domain": "health",
+    "role_type": "specific",
+    "family": "health_ladder",
+    "ladder_position": 3
+  },
+  "university_dean": {
+    "domain": "education",
+    "role_type": "specific",
+    "family": "education_ladder",
+    "ladder_position": 3
+  },
+  "ngo_director": {
+    "domain": "migration",
+    "role_type": "specific",
+    "family": "migration_ladder",
+    "ladder_position": 3
+  },
+  "factory_operations_manager": {
+    "domain": "economy",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "school_district_superintendent": {
+    "domain": "education",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "regional_bank_manager": {
+    "domain": "economy",
+    "role_type": "specific",
+    "family": "economy_ladder",
+    "ladder_position": 3
+  },
+  "media_editor_in_chief": {
+    "domain": "media",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "tech_startup_ceo": {
+    "domain": "technology",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "labor_union_president": {
+    "domain": "labor",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "museum_director": {
+    "domain": "culture",
+    "role_type": "specific",
+    "family": "culture_ladder",
+    "ladder_position": 3
+  },
+  "logistics_company_director": {
+    "domain": "logistics",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "urban_transit_authority_director": {
+    "domain": "transport",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "agricultural_cooperative_head": {
+    "domain": "food",
+    "role_type": "specific",
+    "family": "food_ladder",
+    "ladder_position": 3
+  },
+  "hotel_chain_regional_manager": {
+    "domain": "economy",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "construction_firm_director": {
+    "domain": "housing",
+    "role_type": "specific",
+    "family": "housing_ladder",
+    "ladder_position": 3
+  },
+  "constitutional_court_justice": {
+    "domain": "justice",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "central_bank_governor": {
+    "domain": "economy",
+    "role_type": "title_heavy",
+    "family": "economy_ladder",
+    "ladder_position": 4
+  },
+  "public_health_commissioner": {
+    "domain": "health",
+    "role_type": "title_heavy",
+    "family": "health_ladder",
+    "ladder_position": 4
+  },
+  "education_minister": {
+    "domain": "education",
+    "role_type": "title_heavy",
+    "family": "education_ladder",
+    "ladder_position": 4
+  },
+  "military_general": {
+    "domain": "security",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "environmental_protection_director": {
+    "domain": "climate",
+    "role_type": "title_heavy",
+    "family": "climate_ladder",
+    "ladder_position": 4
+  },
+  "securities_regulator": {
+    "domain": "economy",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "chief_urban_planner": {
+    "domain": "housing",
+    "role_type": "title_heavy",
+    "family": "housing_ladder",
+    "ladder_position": 4
+  },
+  "immigration_policy_director": {
+    "domain": "migration",
+    "role_type": "title_heavy",
+    "family": "migration_ladder",
+    "ladder_position": 4
+  },
+  "telecommunications_regulator": {
+    "domain": "technology",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "national_pension_fund_director": {
+    "domain": "economy",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "disaster_management_authority_head": {
+    "domain": "disaster",
+    "role_type": "title_heavy",
+    "family": "disaster_ladder",
+    "ladder_position": 4
+  },
+  "national_healthcare_system_architect": {
+    "domain": "health",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "criminal_justice_reform_commissioner": {
+    "domain": "justice",
+    "role_type": "title_heavy",
+    "family": "justice_ladder",
+    "ladder_position": 4
+  },
+  "national_energy_policy_director": {
+    "domain": "energy",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "head_of_state": {
+    "domain": "governance",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "un_ambassador": {
+    "domain": "diplomacy",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "world_bank_president": {
+    "domain": "economy",
+    "role_type": "title_heavy",
+    "family": "economy_ladder",
+    "ladder_position": 5
+  },
+  "climate_treaty_negotiator": {
+    "domain": "climate",
+    "role_type": "title_heavy",
+    "family": "climate_ladder",
+    "ladder_position": 5
+  },
+  "geopolitical_strategist": {
+    "domain": "security",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "international_trade_negotiator": {
+    "domain": "economy",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "global_pandemic_response_coordinator": {
+    "domain": "health",
+    "role_type": "title_heavy",
+    "family": "health_ladder",
+    "ladder_position": 5
+  },
+  "nuclear_nonproliferation_envoy": {
+    "domain": "security",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "international_court_of_justice_judge": {
+    "domain": "justice",
+    "role_type": "title_heavy",
+    "family": "justice_ladder",
+    "ladder_position": 5
+  },
+  "global_development_economist": {
+    "domain": "economy",
+    "role_type": "specific",
+    "family": null,
+    "ladder_position": null
+  },
+  "unesco_cultural_heritage_director": {
+    "domain": "culture",
+    "role_type": "title_heavy",
+    "family": "culture_ladder",
+    "ladder_position": 5
+  },
+  "space_agency_director": {
+    "domain": "technology",
+    "role_type": "title_heavy",
+    "family": null,
+    "ladder_position": null
+  },
+  "transnational_migration_policy_analyst": {
+    "domain": "migration",
+    "role_type": "specific",
+    "family": "migration_ladder",
+    "ladder_position": 5
+  },
+  "global_food_security_strategist": {
+    "domain": "food",
+    "role_type": "specific",
+    "family": "food_ladder",
+    "ladder_position": 5
+  },
+  "civilizational_risk_analyst": {
+    "domain": "governance",
+    "role_type": "specific",
+    "family": "disaster_ladder",
+    "ladder_position": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "instruction": [
+    {
+      "pos": ""
+    },
+    {
+      "pos": "You are an AI assistant."
+    },
+    {
+      "pos": "You are a large language model."
+    },
+    {
+      "pos": "You are {model_name}."
+    },
+    {
+      "pos": "Respond as yourself."
+    }
+  ],
+  "level": 0,
+  "level_name": "Default",
+  "entity_name": "Default Assistant",
+  "domain": "default",
+  "role_type": "default",
+  "family": "default",
+  "ladder_position": 0
+}

@@ -1,0 +1,62 @@
+{
+  "task": "Rate the social granularity of a response produced under activation steering.",
+  "scale": {
+    "min": 1,
+    "max": 5,
+    "anchors": {
+      "1": "strongly micro / individual / immediate / concrete",
+      "3": "mixed or meso-level",
+      "5": "strongly macro / institutional / strategic / abstract"
+    }
+  },
+  "dimensions": [
+    {
+      "id": "temporal_scope",
+      "label": "Temporal scope",
+      "low_anchor": "immediate, day-to-day, short-term coping",
+      "high_anchor": "long-term, strategic, intergenerational planning"
+    },
+    {
+      "id": "collectivity",
+      "label": "Collectivity",
+      "low_anchor": "individuals, families, or very small groups",
+      "high_anchor": "organizations, institutions, populations, or international actors"
+    },
+    {
+      "id": "abstraction",
+      "label": "Abstraction",
+      "low_anchor": "concrete lived experience and specific local details",
+      "high_anchor": "abstract policy, system design, and structural framing"
+    },
+    {
+      "id": "decision_logic",
+      "label": "Decision logic",
+      "low_anchor": "personal coping, intuition, and ad hoc problem solving",
+      "high_anchor": "formal planning, governance, incentives, and coordinated strategy"
+    },
+    {
+      "id": "first_personness",
+      "label": "First-personness",
+      "low_anchor": "strongly first-person, self-referential, personal voice",
+      "high_anchor": "impersonal, collective, institutional, or analytic voice"
+    },
+    {
+      "id": "uncertainty",
+      "label": "Uncertainty",
+      "low_anchor": "hesitant, tentative, or emotionally unsure",
+      "high_anchor": "confident, declarative, and policy-like"
+    }
+  ],
+  "extra_fields": [
+    {
+      "id": "granularity_overall",
+      "label": "Overall granularity",
+      "description": "Overall placement from micro to macro."
+    },
+    {
+      "id": "degeneration",
+      "label": "Degeneration",
+      "description": "1 if the response is repetitive, incoherent, or clearly degraded; 0 otherwise."
+    }
+  ]
+}
