@@ -31,7 +31,7 @@ fi
 cd "$PROJECT_DIR"
 
 # ================= Configuration =================
-MODEL="${MODEL:-/mnt/dhwfile/raise/user/qinchonghan/models/Qwen3-8B}"
+MODEL="${MODEL:-/path/to/models/Qwen3-8B}"
 MODEL_SLUG="${MODEL_SLUG:-$(basename "$MODEL" | tr '[:upper:]' '[:lower:]' | tr '/ ' '__')}"
 OUTPUT_DIR="${OUTPUT_DIR:-outputs/${MODEL_SLUG}}"
 
