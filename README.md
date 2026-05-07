@@ -2,6 +2,31 @@
 <h1 align="center">The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models</h1>
 </p>
 
+<!-- <p align="center">
+    <a href="https://arxiv.org/abs/2604.08064"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
+    <a href="https://github.com/qinchonghanzuibang/ImplicitMemBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code%20License-MIT-green"></a>
+    <a href="https://github.com/qinchonghanzuibang/ImplicitMemBench/blob/main/dataset/LICENSE"><img src="https://img.shields.io/badge/Dataset%20License-CC--BY%204.0-blue"></a>
+</p> -->
+
+<p align="center">
+<strong>Chonghan Qin</strong><sup>1</sup>, 
+<strong>Xiachong Feng</strong><sup>1*</sup>, 
+<strong>Ziyun Song</strong><sup>2</sup>, 
+<strong>Xiaocheng Feng</strong><sup>2</sup>,
+<strong>Jing Xiong</strong><sup>1</sup>,
+<strong>Lingpeng Kong</strong><sup>1</sup>
+</p>
+
+<p align="center">
+<sup>1</sup>The University of Hong Kong &nbsp;&nbsp;
+<sup>2</sup>Harbin Institute of Technology
+</p>
+
+<p align="center">
+<sup>*</sup>Corresponding Author
+</p>
+
+
 Granularity studies whether LLMs internally encode the **social scale** of prompted roles—ranging from **micro** (individual experience) to **macro** (organizational/institutional/national reasoning). We compute a **contrast-defined activation-space direction** (the Granularity Axis) from role-conditioned hidden-state representations, and evaluate it via (1) representation geometry (PCA alignment + monotonic projections) and (2) **activation steering**.
 
 This repository includes:
