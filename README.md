@@ -112,14 +112,18 @@ By default, outputs go under:
 - **Code**: MIT License
 - **Data**: CC BY 4.0
 
-<!-- ## Citation
+## Citation
 
 If you use Granularity in your research, please cite:
 
 ```bibtex
-@misc{granularity2026,
-  title        = {The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models},
-  author       = {TBD},
-  year         = {2026}
+@misc{qin2026granularityaxismicrotomacrolatent,
+      title={The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models}, 
+      author={Chonghan Qin and Xiachong Feng and Ziyun Song and Xiaocheng Feng and Jing Xiong and Lingpeng Kong},
+      year={2026},
+      eprint={2605.06196},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.06196}, 
 }
-``` -->
+```
